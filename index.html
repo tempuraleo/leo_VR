@@ -5,10 +5,27 @@
   <body>
     <a-scene>
 
+  <a-sphere position="0 0 0" radius="1.25" color="#EF2D5E"></a-sphere>
+
       <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-sphere position="0 2 -5" radius="1.25" color="#EF2D5E"></a-sphere>
           </a-entity>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+
+          <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+          <a-sphere position="0 4 -10" radius="1.25" color="#EF2D5E"></a-sphere>
+              </a-entity>
+
+              <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+              <a-sphere position="0 8 -15" radius="1.25" color="#EF2D5E"></a-sphere>
+                  </a-entity>
+
+
+                  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+                  <a-sphere position="0 12 -20" radius="1.25" color="#EF2D5E"></a-sphere>
+                      </a-entity>
+
+
+
       <a-assets>
         <a-img id="sky" src="sky.png">
       </a-assets>
