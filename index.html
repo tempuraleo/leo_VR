@@ -10,30 +10,26 @@
   <a-camera></a-camera>
 </a-entity>
 
-  <a-sphere position="0 4 0"
-            radius="1"
+  <a-sphere radius="1"
             color="#00A5A9">
-              <a-animation attribute="rotation"
-                      to: "0 360 0"
-                      dur: "5000"
-                      easing: "linear">
-              </a-animation>
+            <a-entity position="0 4 0" animation="property: rotation;
+                             to: 0 360 0;
+                             loop: true;
+                             dur: 5000">
+              </entity>
   </a-sphere>
 
- <a-entity position="0 4 0">
-              <a-animation attribute="rotation"
-                           to: "0 360 0"
-                           dur: "5000"
-                           easing: "linear">
-              </a-animation>
-   <a-sphere position="2 0 0"
-            radius="0.25"
+ <a-entity position="0 4 0" animation="property: rotation;
+                  to: 0 360 0;
+                  loop: true;
+                  dur: 5000">
+   <a-sphere radius="0.25"
             color="#EF2D5E">
-              <a-animation attribute="rotation"
-                           to: "0 360 0"
-                           dur: "5000"
-                           easing: "linear">
-              </a-animation>
+            <a-entity position="2 0 0" animation="property: rotation;
+                             to: 0 360 0;
+                             loop: true;
+                             dur: 5000">
+            </entity>
   </a-sphere>
 </entity>
 
