@@ -5,7 +5,11 @@
   <body>
     <a-scene>
 
-  <a-sphere position="0 1 -5" radius="1" color="#FFC100"></a-sphere>
+      <a-assets>
+         <a-img id="sun" src="sun.jpg">
+       </a-assets>
+  <a-sphere position="0 1 -5" radius="1"
+   ></a-sphere>
 
  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 5000">
   <a-sphere position="0 1 -7.5" radius="0.5" color="#EF2D5E"></a-sphere>
@@ -28,6 +32,7 @@
         <a-img id="sky" src="sky.png">
       </a-assets>
       <a-sky src="#sky"></a-sky>
+
     </a-scene>
   </body>
 </html>
