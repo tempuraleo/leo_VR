@@ -5,7 +5,12 @@
   <body>
     <a-scene>
 
+<a-entity id="parent">
   <a-sphere position="0 1.25 -15" radius="1" color="#00A5A9"></a-sphere>
+  <a-entity id="child1" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 12500">
+  <a-sphere position="0 1.25 -10" radius="0.25" color="#EF2D5E"></a-sphere>
+</a-entity>
+  </a-entity>
 
 <!--  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
   <a-sphere position="0 2 -5" radius="0.5" color="#EF2D5E"></a-sphere>
@@ -19,9 +24,8 @@
   <a-sphere position="0 8 -15" radius="0.75" color="#EF2D5E"></a-sphere>
           </a-entity> -->
 
-    <a-entity rotation="0 0 0" animation="property: rotation; to: 360 360 0; loop: true; dur: 12500">
-    <a-sphere position="0 1.25 -20" radius="0.25" color="#EF2D5E"></a-sphere>
-  </a-entity>
+
+
 
 
 
